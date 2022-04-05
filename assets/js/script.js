@@ -1,4 +1,11 @@
 var container = document.getElementById("container");
+// currentDay.textContent = moment().format('LLLL');
+
+window.setInterval(function () {
+  $('#currentDay').html(moment().format('dddd MM/DD/YYYY H:mm:ss'))
+}, 1000);
+
+
 
 var hours = [
   // moment().format("1"),
@@ -33,7 +40,7 @@ hours.forEach((hour) => {
   row.classList.add("row", "time-block");
   row.innerHTML = `
     <div id="${hour}" class="col-md-2 hour">${hour}</div>
-    <textarea class="col-md-9 description" name="" id="${hour}"></textarea>
+    <textarea class="col-md-9 description" name="text-area-${hour}" id="${hour}"></textarea>
     <button data-id="${hour}"  class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
   </div>`;
   container.appendChild(row);
