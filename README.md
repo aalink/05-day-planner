@@ -15,7 +15,7 @@ Although the popularity of jQuery and Moment.js has reduced over the years, it's
 ```
 What I Learned
 ```
-Memorizing every single feature of an API is unrealistic, so this project was in large part an exercise of learning how to find the answer using the resources that are made available to developers as they are building their applications.
+Memorizing every single feature of an API is unrealistic, so this project was in large part an exercise of learning how to find the answer using the resources that are made available to developers as they are building their applications.  While there is significant value in having a deep understanding of plain JavaScript, it isn't a requirement in order to effectively use an API that can compliment the code you have already written.
 
 
 ```
